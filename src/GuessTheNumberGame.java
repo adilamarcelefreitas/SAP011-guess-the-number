@@ -4,7 +4,6 @@ import java.util.Random; //classe da biblioteca Java
 public class GuessTheNumberGame {
     private static Random random = new Random();
     private static int targetNumber;
-
     public static void main(String[] args) {
         //gera número aleatório de 1 a 100
         targetNumber = random.nextInt(100) + 1;
@@ -36,7 +35,6 @@ public class GuessTheNumberGame {
             player.setGuessed(true);
         }
     }
-
     public static void displayGameResult(Player winner) {
         // printa em terminal o FINAL de jogo e mostra qual jogador acertou o número.
         System.out.println("FIM DO JOGO!");
