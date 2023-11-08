@@ -9,7 +9,7 @@ public class GuessTheNumberGame {
         //gera número aleatório de 1 a 100
         targetNumber = random.nextInt(100) + 1;
         // cria jogadores, humano(você) e computador
-        Player humanPlayer = new HumanPlayer("Você");
+        Player humanPlayer = new HumanPlayer("Player");
         Player computerPlayer = new ComputerPlayer("Sr. Computador");
 
         Player currentPlayer = humanPlayer;
@@ -29,9 +29,9 @@ public class GuessTheNumberGame {
         //obtém o palpite do jogador e verifica se está correto
         int guess = player.makeGuess();
         if (guess < targetNumber) {
-            System.out.println(player.getName() + " seu palpite foi" + guess + " muito baixo!)");
+            System.out.println(player.getName() + " o número " + guess + " é muito BAIXO! Tente de novo.");
         } else if (guess > targetNumber) {
-            System.out.println(player.getName() + " fez a aposta" + guess + " muito alto!");
+            System.out.println(player.getName() + " o número " + guess + " é muito ALTO! Tente de novo.");
         } else {
             player.setGuessed(true);
         }
