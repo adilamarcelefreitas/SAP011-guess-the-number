@@ -23,7 +23,6 @@ public class GuessTheNumberGame {
             currentPlayer = (currentPlayer instanceof HumanPlayer) ? computerPlayer : humanPlayer;
         }
     }
-
     public static void checkGuess(Player player) {
         //obtém o palpite do jogador e verifica se está correto
         int guess = player.makeGuess();
