@@ -2,17 +2,27 @@ package src;
 import java.util.Scanner;
 
 public class HumanPlayer extends Player {
+    private int manualGuess = -1;
+
     public HumanPlayer(String name) {
         super(name);
     }
 
+    public void setManualGuess(int guess) {
+        this.manualGuess = guess;
+    }
+
     @Override
     public int makeGuess() {
-        Scanner scanner = new Scanner(System.in);
-        System.out.println("BEM VINDO AO GUESS THE NUMBER! O jogo vai começa com você escolhendo primeiro. Boa sorte!");
-        System.out.println(name + ", dê seu palpite: ");
-        int guess = scanner.nextInt();
-        guesses.add(guess);
-        return guess;
+        if (manualGuess != -1) {
+            getGuesses().add(manualGuess);
+            return manualGuess;
+        } else {
+            Scanner scanner = new Scanner(System.in);
+            System.out.print(getName() + ", digite a sua suposição: ");
+            int bet = scanner.nextInt();
+            getGuesses().add(bet);
+            return bet;
+        }
     }
 }

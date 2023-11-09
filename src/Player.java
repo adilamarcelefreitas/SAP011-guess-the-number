@@ -14,18 +14,22 @@ public abstract class Player {
     }
 
     public String getName() {
+
         return name;
     }
 
     public List<Integer> getGuesses() {
+
         return guesses;
     }
 
     public boolean hasGuessed() {
+
         return guessed;
     }
 
     public void setGuessed(boolean guessed) {
+
         this.guessed = guessed;
     }
 
