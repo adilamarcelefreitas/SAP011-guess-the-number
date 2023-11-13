@@ -10,7 +10,7 @@ public class GuessTheNumberGame {
     public static void main(String[] args) {
         startGame();
         Player player = getPlayer();
-        int maxGuesses = 10;
+        int maxGuesses = 15;
         startGame(player, maxGuesses);
     }
 
@@ -18,26 +18,25 @@ public class GuessTheNumberGame {
     public static void startGame() {
         targetNumber = random.nextInt(100) + 1;
     }
-
     public static Player getPlayer() {
         Scanner scanner = new Scanner(System.in);
         Player player = null;
 
         System.out.println("BEM VINDO AO GUESS THE NUMBER!");
-        System.out.println("O número foi sorteado. São dez rodadas. Tente acertá-lo.");
-        System.out.println("Dígite 1 se entendeu.");
+        System.out.println("O número foi sorteado. São quinze rodadas. Tente acertá-lo.");
+        System.out.println("Pressione Enter para começar ou digite qualquer outra coisa para sair.");
 
-        int choice = scanner.nextInt();
-        scanner.nextLine();
+        String input = scanner.nextLine();
 
-        if (choice == 1) {
-            System.out.print("Digite o seu nome: ");
-            String name = scanner.nextLine();
-            player = new HumanPlayer(name); }
-//        } else (choice == ) {
-//            System.out.println("O computador é seu adversário.");
-//            player = new ComputerPlayer("Computador The Boss");
-//        }
+        if (input.isEmpty()) {
+            System.out.println("O computador é o seu adversário. Dê enter para começar!");
+            String Player = scanner.nextLine();
+            player = new HumanPlayer("Player");
+        } else {
+            System.out.println("Reiniciando o jogo...");
+            startGame(); // Reinicia o jogo chamando o método startGame
+            player = getPlayer(); // Chama recursivamente getPlayer para obter um novo jogador
+        }
 
         return player;
     }

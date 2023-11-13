@@ -19,7 +19,7 @@ public class HumanPlayer extends Player {
             return manualGuess;
         } else {
             Scanner scanner = new Scanner(System.in);
-            System.out.print(getName() + ", digite a sua suposição: ");
+            System.out.print("Digite seu palpite: ");
             int bet = scanner.nextInt();
             getGuesses().add(bet);
             return bet;

@@ -3,9 +3,9 @@ import java.util.ArrayList;
 import java.util.List;
 
 public abstract class Player {
+    private final boolean guessed;
     protected String name;
     protected List<Integer> guesses;
-    private boolean guessed;
 
     public Player(String name) {
         this.name = name;
@@ -14,23 +14,11 @@ public abstract class Player {
     }
 
     public String getName() {
-
         return name;
     }
 
     public List<Integer> getGuesses() {
-
         return guesses;
-    }
-
-    public boolean hasGuessed() {
-
-        return guessed;
-    }
-
-    public void setGuessed(boolean guessed) {
-
-        this.guessed = guessed;
     }
 
     public abstract int makeGuess();
