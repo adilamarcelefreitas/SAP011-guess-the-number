@@ -1,4 +1,3 @@
-package src;
 import java.util.Scanner;
 
 public class HumanPlayer extends Player {
@@ -19,7 +18,7 @@ public class HumanPlayer extends Player {
             return manualGuess;
         } else {
             Scanner scanner = new Scanner(System.in);
-            System.out.print("Digite seu palpite: ");
+            System.out.print("Jogador, digite seu palpite: ");
             int bet = scanner.nextInt();
             getGuesses().add(bet);
             return bet;
