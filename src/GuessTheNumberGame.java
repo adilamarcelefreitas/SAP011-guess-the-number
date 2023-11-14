@@ -6,7 +6,6 @@ import java.util.Scanner;
 public class GuessTheNumberGame {
     private static Random random = new Random();
     private static int targetNumber;
-
     public static void main(String[] args) {
         startGame();
         Player player = getPlayer();
@@ -18,6 +17,7 @@ public class GuessTheNumberGame {
     public static void startGame() {
         targetNumber = random.nextInt(100) + 1;
     }
+<<<<<<< HEAD
     public static Player getPlayer() {
         Scanner scanner = new Scanner(System.in);
         Player player = null;
@@ -32,6 +32,15 @@ public class GuessTheNumberGame {
             System.out.println("O computador é o seu adversário. Dê enter para começar!");
             String Player = scanner.nextLine();
             player = new HumanPlayer("Player");
+=======
+    public static void checkGuess(Player player) {
+        //obtém o palpite do jogador e verifica se está correto
+        int guess = player.makeGuess();
+        if (guess < targetNumber) {
+            System.out.println(player.getName() + " seu palpite foi" + guess + " muito baixo!)");
+        } else if (guess > targetNumber) {
+            System.out.println(player.getName() + " fez a aposta" + guess + " muito alto!");
+>>>>>>> main
         } else {
             System.out.println("Reiniciando o jogo...");
             startGame(); // Reinicia o jogo chamando o método startGame
@@ -40,6 +49,7 @@ public class GuessTheNumberGame {
 
         return player;
     }
+<<<<<<< HEAD
 
     public static int startGame(Player player, int maxAttempts) {
         Player computerPlayer = new ComputerPlayer("Computador The Boss");
@@ -71,6 +81,13 @@ public class GuessTheNumberGame {
         }
 
         return 1;
+=======
+    public static void displayGameResult(Player winner) {
+        // printa em terminal o FINAL de jogo e mostra qual jogador acertou o número.
+        System.out.println("FIM DO JOGO!");
+        System.out.println(winner.getName() + " PARABÉNS VOCÊ ACERTOU! o número ERA: " + targetNumber + ". ");
+        System.out.println("Tentativas" + winner.getName() + ": " + winner.getGuesses());
+>>>>>>> main
     }
 
 
