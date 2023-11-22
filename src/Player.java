@@ -21,4 +21,7 @@ public abstract class Player {
     }
 
     public abstract int makeGuess();
+
+    public void setGuesses(int targetNumber) {
+    }
 }

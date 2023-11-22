@@ -5,11 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e2cd9da4-a552-46a6-b253-7e9751ee7aae" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ComputerPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ComputerPlayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/GuessTheNumberGameTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/SAP011-guess-the-number.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/SAP011-guess-the-number.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/fileColors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/fileColors.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SAP011-guess-the-number/.idea/SAP011-guess-the-number.iml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SAP011-guess-the-number/.idea/SAP011-guess-the-number.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SAP011-guess-the-number/.idea/fileColors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SAP011-guess-the-number/.idea/fileColors.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SAP011-guess-the-number/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SAP011-guess-the-number/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SAP011-guess-the-number/GuessTheNumberGame.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SAP011-guess-the-number/GuessTheNumberGame.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SAP011-guess-the-number/test/GuessTheTests.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/GuessTheNumberGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GuessTheNumberGame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HumanPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HumanPlayer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/GuessTheTests.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,39 +35,95 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 6
-}]]></component>
+  <component name="ProblemsViewState">
+    <hideBySeverity>
+      <option value="300" />
+    </hideBySeverity>
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="2YAudIrXzFXrktL1WzCORyoU0af" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Downloaded.Files.Path.Enabled": "false",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "project.structure.last.edited": "Libraries",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;
   }
-}]]></component>
-  <component name="RunManager">
-    <configuration name="GuessTheNumberGame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="GuessTheNumberGame" />
+}</component>
+  <component name="RunManager" selected="JUnit.GuessTheNumberGameTest.retornarTenteNumeroMenor">
+    <configuration name="GuessTheNumberGameTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SAP011-guess-the-number" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="GuessTheNumberGameTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GuessTheNumberGameTest.retornarTenteNumeroMenor" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SAP011-guess-the-number" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="GuessTheNumberGameTest" />
+      <option name="METHOD_NAME" value="retornarTenteNumeroMenor" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GuessTheNumberGameTest.testCheckGuess_PlayerWins" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SAP011-guess-the-number" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="GuessTheNumberGameTest" />
+      <option name="METHOD_NAME" value="testCheckGuess_PlayerWins" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GuessTheNumberGameTest.testHumanPlayerMakeGuess" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SAP011-guess-the-number" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="GuessTheNumberGameTest" />
+      <option name="METHOD_NAME" value="testHumanPlayerMakeGuess" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GuessTheNumberGameTest.testMakeGuess" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SAP011-guess-the-number" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="GuessTheNumberGameTest" />
+      <option name="METHOD_NAME" value="testMakeGuess" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.GuessTheNumberGame" />
+        <item itemvalue="JUnit.GuessTheNumberGameTest.retornarTenteNumeroMenor" />
+        <item itemvalue="JUnit.GuessTheNumberGameTest.testCheckGuess_PlayerWins" />
+        <item itemvalue="JUnit.GuessTheNumberGameTest.testMakeGuess" />
+        <item itemvalue="JUnit.GuessTheNumberGameTest" />
+        <item itemvalue="JUnit.GuessTheNumberGameTest.testHumanPlayerMakeGuess" />
       </list>
     </recent_temporary>
   </component>
@@ -75,5 +137,20 @@
       <updated>1699980797841</updated>
     </task>
     <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/GuessTheNumberGame.java</url>
+          <line>3</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

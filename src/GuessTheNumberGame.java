@@ -3,9 +3,10 @@ import java.util.Scanner;
 
 public class GuessTheNumberGame {
     private static Random random = new Random();
-    private static int targetNumber;
+    public static int targetNumber;
 
     public static void main(String[] args) {
+        startGame();
         Player player = getPlayer();
         int maxGuesses = 15;
         checkGuess(player, maxGuesses);
